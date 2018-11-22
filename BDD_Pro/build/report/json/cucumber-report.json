@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Test with valid credentials",
+        "description": "",
+        "id": "test-login-functionality;test-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20137674964,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "TC1.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 588332658,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter username",
+            "match": {
+              "location": "TC1.user_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106530683,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter password",
+            "match": {
+              "location": "TC1.user_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3371145355,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to login",
+            "match": {
+              "location": "TC1.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Login Functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "first.feature"
+  }
+]
