@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
-import net.serenitybdd.cucumber.CucumberWithSerenity;
+
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -15,7 +15,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
             "json:build/report/json/cucumber-report.json"
     },
    monochrome = true,
-    features = {"C:\\\\Users\\\\ZEAHDCE\\\\Rest_Assured\\\\BDD_Pro\\\\feature_files\\\\tc"}
+    features = {"C:\\Users\\jitender.ahuja\\git\\BDD\\BDD_Pro\\feature_files\\tc\\first.feature"}
     )
 public class RunCukesTest {
 

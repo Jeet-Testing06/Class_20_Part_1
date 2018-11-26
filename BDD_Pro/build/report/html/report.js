@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("first.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/jitender.ahuja/git/BDD/BDD_Pro/feature_files/tc/first.feature");
 formatter.feature({
   "line": 1,
   "name": "Test Login Functionality",
@@ -38,28 +38,28 @@ formatter.match({
   "location": "TC1.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 20137674964,
+  "duration": 20591627746,
   "status": "passed"
 });
 formatter.match({
   "location": "TC1.user_enter_username()"
 });
 formatter.result({
-  "duration": 588332658,
+  "duration": 6459688653,
   "status": "passed"
 });
 formatter.match({
   "location": "TC1.user_enter_password()"
 });
 formatter.result({
-  "duration": 106530683,
+  "duration": 6295675527,
   "status": "passed"
 });
 formatter.match({
   "location": "TC1.user_should_be_able_to_login()"
 });
 formatter.result({
-  "duration": 3371145355,
+  "duration": 4943926891,
   "status": "passed"
 });
 });
